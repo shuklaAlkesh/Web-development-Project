@@ -1,0 +1,216 @@
+/* Global Styles */
+body {
+    font-family:'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Soft background color */
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height of the body to fill the viewport */
+}
+
+.main-content {
+    flex: 1; /* Let the main content flex and grow to fill available space */
+}
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    content:flex;
+  }
+  
+  /* Navigation Styles */
+/* Navigation Styles */
+nav {
+    background-color: #e9f1fc; /* Navbar background color #a5dcf8 */
+    color: #343a40; /* Navbar text color */
+    padding: 10px 20px; /* Adjusted padding */
+  }
+  
+  .container_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px; /* Adjusted font size for logo */
+  }
+  
+  .menu-toggle {
+    display: none;
+  }
+  
+  .nav_menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav_menu li {
+    display: inline;
+    margin-right: 20px;
+    
+  }
+  
+  .nav_menu li:last-child {
+    margin-right: 0; /* Remove margin for the last list item */
+  }
+  
+  .logo h1 a {
+    color: #343a40;
+    text-decoration: none;
+  }
+  .nav_menu li a {
+    color: #343a40;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold; /* Increase font weight to make the text bolder */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .nav_menu li a:hover {
+    color: #4e54c8; /* Change color on hover to match the title section */
+  }
+  
+  
+ /* Header Styles */
+header {
+    background: linear-gradient(16deg, rgba(130,164,189,1) 0%, rgba(19,68,185,1) 63%);
+    color: #ffffff;
+    padding: 100px 0; /* Reduce padding for a more compact header */
+  }
+  
+  .workshop-title {
+    font-size: 48px; /* Increase font size for better visibility */
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for a subtle shading effect */
+    line-height: 1.2; /* Adjust line height for better spacing */
+  }
+  
+ /* Main Content Styles */
+.main-content {
+    padding: 40px 0;
+    text-align: center; /* Center-align the content */
+  }
+  
+  .main-content p {
+    font-size: 20px; /* Increase text size */
+    margin-bottom: 30px; /* Increase margin bottom for better spacing */
+  }
+  
+ /* Scope Section Styles */
+#scope {
+    font-size: 24px; /* Increase font size for scope heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+  .Scope-heading{
+    color:rgb(130,164,189);
+    text-align: left; /* Align the heading to the left */
+  }
+  
+  .scope-content {
+    font-size: 18px; /* Increase font size for scope content */
+    line-height: 1.8; /* Increase line spacing for better readability */
+    text-align: justify; /* Justify text for a more organized appearance */
+  }
+  
+/* Topics Section Styles */
+#topics {
+    font-size: 24px; /* Increase font size for topics heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+  
+  .topics-heading {
+    color:rgb(130,164,189);
+    text-align: left; /* Align the heading to the left */
+  }
+  
+  .topics-content {
+    font-size: 18px; /* Increase font size for topics content */
+    line-height: 1.6; /* Adjust line spacing for better readability */
+    text-align: justify; /* Justify text for a more organized appearance */
+  }
+  
+  .topics-content ul {
+    list-style-type: disc; /* Use disc bullet points */
+    padding-left: 20px; /* Add padding to the left of the list */
+  }
+  
+  /* Committees Section Styles */
+#committees {
+    font-size: 24px; /* Increase font size for committees heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+  .committees-heading{
+    color:rgb(130,164,189);
+    text-align: left; /* Align the heading to the left */
+  }
+  
+  .committees-content {
+    font-size: 18px; /* Increase font size for committees content */
+    line-height: 1.8; /* Increase line spacing for better readability */
+    text-align: justify; /* Justify text for a more organized appearance */
+  }
+  
+  .committees-list {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .committees-list li {
+    margin-bottom: 10px; /* Add spacing between committee members */
+  }
+  
+  .committee-member {
+    font-weight: bold; /* Make committee member names bold */
+  }
+  
+  
+  
+  h2 {
+    color: #343a40; /* Dark text color for headings */
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Team Members Styles */
+  #committees {
+    background-color: #f8f9fa; /* Background color for team members section */
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+  
+  #committees li {
+    margin-bottom: 10px;
+  }
+  /* Footer Styles */
+/* Footer Styles */
+footer {
+    background: linear-gradient(16deg, rgba(130,164,189,1) 0%, rgba(19,68,185,1) 63%);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%; /* Set the width to 100% */
+    position: relative; /* Set position to relative */
+    bottom: 0; /* Align the footer to the bottom */
+}
+
+.footer-content {
+    font-size: 16px;
+}
+
+
+  
