@@ -288,27 +288,4 @@ footer {
   .container {
       padding: 0 10px; /* Adjust container padding for smaller screens */
   }
-
-  .logo {
-      font-size: 20px; /* Decrease font size for logo on smaller screens */
-  }
-
-  .nav_menu li {
-      display: block; /* Change list items to block for better stacking on smaller screens */
-      margin-right: 0; /* Remove margin for better spacing */
-      margin-bottom: 10px; /* Add margin bottom for spacing between items */
-  }
-
-  .menu-toggle {
-      display: block; /* Show menu toggle button on smaller screens */
-      margin-top: 10px; /* Add margin top for spacing */
-  }
-
-  .nav_menu {
-      display: none; /* Hide navigation menu by default on smaller screens */
-  }
-
-  .nav_menu.active {
-      display: block; /* Display navigation menu when active */
-  }
 }
